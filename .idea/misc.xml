@@ -3,5 +3,13 @@
   <component name="Black">
     <option name="sdkName" value="uv (projects_aguest_me)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (aguest.me)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (aguest.me-api)" project-jdk-type="Python SDK" />
+  <component name="RuffConfiguration">
+    <option name="enabled" value="true" />
+    <option name="executableDiscoveryMode" value="PATH" />
+  </component>
+  <component name="TyConfiguration">
+    <option name="enabled" value="true" />
+    <option name="executableDiscoveryMode" value="PATH" />
+  </component>
 </project>

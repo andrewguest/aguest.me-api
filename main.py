@@ -50,11 +50,9 @@ app.add_middleware(
 )
 
 
-@app.get("/", response_class=HTMLResponse)
+@app.get("/")
 async def index(request: Request):
     # Get the projects from the DB
     all_projects = await Projects.find_all().to_list()
 
-    return templates.TemplateResponse(
-        request=request, name="index.html", context={"projects": all_projects}
-    )
+    return all_projects
