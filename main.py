@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
 # App setup
 app = FastAPI(
     title="Projects subdomain website",
-    description="Website for projects.aguest.me domain",
+    description="Website for aguest.me domain",
     version="0.0.1",
     lifespan=lifespan,
 )
@@ -53,6 +53,6 @@ app.add_middleware(
 @app.get("/")
 async def index(request: Request):
     # Get the projects from the DB
-    all_projects = await Projects.find_all().to_list()
+    all_projects = await Projects.find_all().sort("-priority", "+name").to_list()
 
     return all_projects
