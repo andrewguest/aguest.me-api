@@ -7,9 +7,11 @@
   <component name="RuffConfiguration">
     <option name="enabled" value="true" />
     <option name="executableDiscoveryMode" value="PATH" />
+    <option name="pathToExecutable" value="$USER_HOME$/.local/bin/ruff" />
   </component>
   <component name="TyConfiguration">
     <option name="enabled" value="true" />
     <option name="executableDiscoveryMode" value="PATH" />
+    <option name="pathToExecutable" value="$USER_HOME$/.local/bin/ty" />
   </component>
 </project>
