@@ -13,6 +13,7 @@ class Projects(Document):
     database: Optional[str] = None
     url: str
     github_repos: Optional[list[str]] = None
+    priority: int = 0
 
     class Settings:
         name = "projects"
