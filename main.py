@@ -77,7 +77,3 @@ async def index(request: Request):
 @app.get("/robots.txt", response_class=PlainTextResponse)
 async def robots():
     return "User-agent: *\nDisallow: /"
-
-@app.get("/sentry-debug")
-async def trigger_error():
-    division_by_zero = 1 / 0
