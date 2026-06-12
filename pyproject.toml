@@ -9,11 +9,9 @@ dependencies = [
     "granian>=2.1.2",
     "gunicorn>=23.0.0",
     "motor==3.6.1",
-    "opentelemetry-api>=1.42.1",
-    "opentelemetry-exporter-otlp>=1.42.1",
-    "opentelemetry-sdk>=1.42.1",
     "psycopg2-binary>=2.9.11",
     "python-dotenv>=1.0.1",
+    "sentry-sdk>=2.61.0",
     "uvicorn>=0.34.0",
     "uvicorn-worker>=0.3.0",
 ]
